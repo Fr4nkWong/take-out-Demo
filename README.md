@@ -1,21 +1,22 @@
-# sell
+# take-out-Demo
 
-> sell app
+## Tech stack
+Vue2.4.x + Vue.router2.7.x + Vue.resource1.3.x + webpack2.6.x (You can check the dependencies in package.json)
 
-## Build Setup
+## Difference(Vue1.x - Vue2.x)
 
-``` bash
-# install dependencies
-npm install
+## Problems in dev
+0x01: sticky-footer
+parent element use *position:fixed; padding-bottom*, the footer use *margin-top*.
 
-# serve with hot reload at localhost:8080
-npm run dev
+0x02: Adaptive layout
+parent element use *display:fixed*, the left use *flex:0 0 80px* and the right use *flex:1* for the left is fixed and the right is adaptive.
 
-# build for production with minification
-npm run build
+0x03: transition by vue2.x
+the popup's apear process is v-enter -> v-enter-to what is called v-enter-active. the disapear process is v-leave -> v-leave-to what called v-leave-actve. Transition prosperity should be in v-\*-active.
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+0x04: Left and right interrelated
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## The End
+I'll constantly update this small Demo to imporve my skills. Hey, I'm just a newbie, but I have a geek heart.
