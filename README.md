@@ -1,11 +1,21 @@
-# take-out-Demo
+# sell
 
-## Tech stack
-Vue2.4.x + Vue.router2.7.x + Vue.resource1.3.x + webpack2.6.x (You can check the dependencies in package.json)
+> sell app
 
-## Difference(Vue1.x - Vue2.x)
+## Build Setup
 
-## Problems in dev
+``` bash
+# install dependencies
+npm install
 
-## The End
-I'll constantly update this small Demo to imporve my skills. Hey, I'm just a newbie, but I have a geek heart.
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
