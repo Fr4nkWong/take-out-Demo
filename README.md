@@ -20,6 +20,7 @@ the popup's apear process is v-enter -> v-enter-to what is called v-enter-active
 0x05: Event triggering and listening between child and parent components
 We can create a new Vue object named eventHub and put it in data prosperity in the main.js where we begin createing new Vue object named App. So we can use this.$root.eventHub.$emit and this.$root.eventHub.$on in any component whatever the components' level and relationship.
 
+
 ## Difference(Vue1.x - Vue2.x)
 
 
