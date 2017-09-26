@@ -3,6 +3,15 @@
 ## Tech stack
 Vue2.4.x + Vue.router2.7.x + Vue.resource1.3.x + webpack2.6.x (You can check the dependencies in package.json)
 
+## Components
+header: the interface's head.
+star: the shop's rank.
+goods: informations about all goods of the shop.
+shopcart: the shopping cart in the bottom.
+cartcontrol: the controller of  goods' count.
+ratings: ratings about the shop.
+seller: informations about the seller.
+
 ## Problems in dev
 #### 0x01: sticky-footer
 parent element use *position:fixed; padding-bottom*, the footer use *margin-top*.
