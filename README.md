@@ -30,6 +30,8 @@ We can create a new Vue object named eventHub and put it in data prosperity in t
 
 #### 0x06: Black magic about padding-top&padding-bottom
 
+#### 0x07: Communication between parent component and child component
+
 
 ## Difference(Vue1.x - Vue2.x)
 
