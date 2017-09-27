@@ -31,7 +31,7 @@ We can create a new Vue object named eventHub and put it in data prosperity in t
 #### 0x06: Black magic about padding-top&padding-bottom
 
 #### 0x07: Communication between parent component and child component
-
+The child component can get peoperty from its parent by 'props'. Child component use '$emit()' to trigger events and its parent can listen the events by listener binding on the child components elements.
 
 ## Difference(Vue1.x - Vue2.x)
 
