@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+
     <div class="content-wrapper">
       <div class="avatar">
         <img width="64px" height="64px" v-bind:src="seller.avatar" />
@@ -19,17 +20,20 @@
       </div>
       <div v-if="seller.supports" class="support-count" v-on:click.stop="showDetail">
         <span class="count">{{seller.supports.length}}个</span>
-        <i class="icon-keyboard_arrow_right">></i>
+        <i class="icon-keyboard_arrow_right"></i>
       </div>
     </div>
+
     <div class="bulletin-wrapper" v-on:click="showDetail">
       <span class="bulletin-title"></span><span 
       class="bulletin-text">{{seller.bulletin}}</span>
-      <i class="icon-keyboard_arrow_right">></i>
+      <i class="icon-keyboard_arrow_right"></i>
     </div>
+
     <div class="background">
       <img width="100%" height="100%" v-bind:src="seller.avatar" />
     </div>
+
     <transition name="fade">
     <div v-show="detailShow" class="detail">
       <div class="detail-wrapper clearfix">
@@ -60,10 +64,11 @@
         </div>
       </div>
       <div class="detail-close" v-on:click="hideDetail">
-        <i class="icon-close">X</i>
+        <i class="icon-close"></i>
       </div>
     </div>
     </transition>
+    
   </div>
 </template>
 

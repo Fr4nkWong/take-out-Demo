@@ -18,7 +18,7 @@
         </router-link>
       </div>
     </div>
-    <router-view></router-view>
+    <router-view v-bind:seller="seller"></router-view>
   </div>
 </template>
 
