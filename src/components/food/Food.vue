@@ -304,6 +304,4 @@ export default {
         font-size: 12px
         color: rgb(147, 153, 159)
 
-
-
 </style>
